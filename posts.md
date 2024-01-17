@@ -9,3 +9,10 @@ sources][sources] for these examples to learn what to type in order to render a 
 - [Formatting tables using Tufte-Blog.](posts/tables/tables.html)
 
 [sources]: http://github.com/adityaramesh/tufte-blog/tree/master/posts
+
+## Noether's theorem 
+
+
+
+
+## Blog on Natural Gradients and Mirror Descent
