@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>convex</title>
+<base href="file:///home/arkartik/Website/thatskartik.github.io/output/" target="_self"/>
+<link href="css/reset.css" rel="stylesheet"/>
+<link href="css/tufte.css" rel="stylesheet"/>
+<link href="css/latex.css" rel="stylesheet"/>
+<link href="css/header_footer.css" rel="stylesheet"/>
+<link href="css/table.css" rel="stylesheet"/>
+<link href="css/tufte_pandoc_compat.css" rel="stylesheet"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<script src="js/MathJax/MathJax.js?config=TeX-AMS_HTML-full" type="text/javascript"></script>
+</head>
+<body>
+<header>
+<nav>
+<a href="contact.html">Contact</a>
+<a href="posts.html">Posts</a>
+</nav>
+</header>
+<article>
+<section class="level3" id="some-results-in-convex-optimization">
+<h3>Some results in Convex Optimization</h3>
+<hr/>
+<p>Consider the function <span class="math inline">\(f\)</span> that is closed convex and <span class="math inline">\(\beta\)</span> smooth, then the following inequalities can be used to bound the change in the function across two points <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>.</p>
+<p><span class="math display">\[
+\begin{gather}
+    f(x) - f(y) \le g_x^T (x - y) - \frac{1}{2 \beta} \| g_x - g_y \|_*^2 
+    \\
+    f(x) - f(y) \le g_y^T(x - y) + \frac{\beta}{2} \|x - y \|^2
+\end{gather}
+\]</span></p>
+<p>Note how the results are dual in nature. One of the results bounds the change in the function in terms of the “distance” between the points <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>, while the other measures the distance after a linear map <span class="math inline">\(\partial f\)</span>.</p>
+<p>Maps under the set of subgradients are congenial to us, it follows from the Conjugate subgradient theorem</p>
+</section>
+</article>
+<footer>
+<hr/>
+<div class="credits">
+<span><a href="http://github.com/adityaramesh/tufte-blog">Tufte-Blog</a> uses
+                    <a href="http://pandoc.org">Pandoc</a> along with
+                    <a href="http://github.com/edwardtufte/tufte-css">Tufte CSS,</a>
+<a href="http://mathjax.org">MathJax,</a> and
+                    <a href="http://disqus.com">Disqus.</a>
+</span></div>
+</footer>
+</body>
+</html>
