@@ -33,7 +33,7 @@ build_targets = {'dev', 'prod'}
 
 site_definitions = {
     'dev': {'site': {'url': 'file://{}/output/'.format(os.getcwd())}},
-    'prod': {'site': {'url': 'http://thatskartik.github.io/'}}
+    'prod': {'site': {'url': 'https://thatskartik.github.io/'}}
 }
 # this is the argument that needs to be played around with so that the dev and prod modes can be used
 
