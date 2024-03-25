@@ -1,5 +1,6 @@
 # Posts
 
+<!-- Nothing here yet, will post something on Convex Optimization soon! -->
 <!-- ## Tufte Blog Examples
 
 These example pages show the various kinds of features supported by Tufte-Blog. See [the Markdown
@@ -11,4 +12,4 @@ sources][sources] for these examples to learn what to type in order to render a 
 [sources]: http://github.com/adityaramesh/tufte-blog/tree/master/posts
  -->
 
-- [Beautiful results in Convex Optimization](posts/convex/convex.html)
+- (Still in progress) - [Beautiful results in Convex Optimization](posts/convex/convex.html)
