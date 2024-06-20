@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>pytorch_tech</title>
+<base href="file:///home/arkartik/Website/thatskartik.github.io/output/" target="_self"/>
+<link href="css/reset.css" rel="stylesheet"/>
+<link href="css/tufte.css" rel="stylesheet"/>
+<link href="css/latex.css" rel="stylesheet"/>
+<link href="css/header_footer.css" rel="stylesheet"/>
+<link href="css/table.css" rel="stylesheet"/>
+<link href="css/tufte_pandoc_compat.css" rel="stylesheet"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+</head>
+<body>
+<header>
+<nav>
+<a href="pub.html">Research</a>
+<a href="contact.html">Contact</a>
+<a href="posts.html">Posts</a>
+<a href="index.html">Home</a>
+</nav>
+</header>
+<article>
+<section class="level3" id="leaf-tensors-in-pytorch">
+<h3>Leaf Tensors in Pytorch</h3>
+<p>The <code>requires_grad</code> attribute does not control whether the actual <code>grad</code> attribute of the tensor is populated or not.</p>
+<p>This depends on the attribute <code>is_leaf</code>.</p>
+<p>All tensors that have <code>requires_grad</code> set to false will be leaf tensors by convention.</p>
+<blockquote>
+<p>The rule is, if a tensor has been made by a user and has <code>requires_grad=True</code> during the initializaion, then it is a leaf tensor. If it has been operated on, then it loses it’s <code>leaf</code> status. If the tensor has no gradient required, then by convention it is a leaf tensor. It is only a non leaf tensor, if it is a byproduct of an operation on leaf tensors.</p>
+</blockquote>
+<p>The word <code>operation</code> in the above line is ambiguous. <code>_requires_grad_()</code> and <code>detach()</code> aren’t operations, they return new tensors each time you call them.</p>
+<p>Try applying it here<label class="margin-toggle sidenote-number" for="sidenote-1"></label><input class="margin-toggle" id="sidenote-1" type="checkbox"/><span class="sidenote">False, True, True, True, True, True, False</span></p>
+<pre class="code">
+import torch
+
+bio = []
+
+bio.append(torch.randn(10, requires_grad=True).cuda())
+bio.append(torch.randn(10, requires_grad=True))
+bio.append(torch.randn(10).cuda())
+bio.append(torch.randn(10) + 2)
+bio.append(torch.randn(10))
+bio.append(torch.randn(10).requires_grad_())
+bio.append(torch.randn(10).requires_grad_().cuda())
+
+state = [tensor.is_leaf for tensor in bio]
+
+print(state)
+</pre>
+<p>Will tensors created from Dataloaders and Datasets be leaf tensors or not?</p>
+<blockquote>
+<p>Yes, they don’t store gradients usually.</p>
+</blockquote>
+<p>Will the weights obtained from a pretrained model be leaf tensors or not?</p>
+<blockquote>
+<p>Yes, they are</p>
+</blockquote>
+</section>
+<section class="level2" id="transfer-learning-with-pytorch">
+<h2>Transfer Learning with Pytorch</h2>
+<ul>
+<li><a href="https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html">Resource</a> The blog asserts that the correct approch to doing this is not to use the <code>create_feature_extractor</code> function, but instead just modify the final layer of the initialized <code>nn.Module</code></li>
+<li><a href="https://pytorch.org/docs/master/notes/autograd.html">Resource</a> This is a detailed document on autograd mechanics</li>
+</ul>
+</section>
+
+</article>
+<footer>
+<hr/>
+<div class="credits">
+<span><a href="http://github.com/adityaramesh/tufte-blog">Tufte-Blog</a> uses
+                    <a href="http://pandoc.org">Pandoc</a> along with
+                    <a href="http://github.com/edwardtufte/tufte-css">Tufte CSS,</a>
+<a href="http://mathjax.org">MathJax,</a> and
+                    <a href="http://disqus.com">Disqus.</a>
+</span></div>
+</footer>
+</body>
+</html>
