@@ -17,7 +17,7 @@ course of the book.
 [polya]: posts/HTSI/images/polya.jpg
 
 
-Here is the first problem where he ecnourages us to ask these important questions
+Here is the first problem where he encourages us to ask these important questions
 
 - What is the data?
 - What is the unknown?

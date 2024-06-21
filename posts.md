@@ -1,3 +1,9 @@
+---
+title: Posts
+author: Kartik Srinivas
+---
+
+
 # Posts
 
 <!-- Nothing here yet, will post something on Convex Optimization soon! -->
@@ -16,3 +22,4 @@ sources][sources] for these examples to learn what to type in order to render a 
 - (Still in progress) - [Tmux quick tips](posts/tmux/tmux.html)
 - (Still in progress) - [Vim quick tips](posts/vim/vim.html)
 - (Still in progress) - [How to Solve it](posts/HTSI/HTSI.html)
+- [Technicalities in Pytorch](posts/Summer_of_MLP/pytorch_tech.html)
