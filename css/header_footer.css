@@ -19,7 +19,7 @@ body > article {
 header > nav {
     padding: 3rem 3rem 0 0;
     font-size: 1.3rem;
-    font-family: "Gill Sans";
+    font-family: signifier;
 }
 
 @media (max-width: 760px) {
@@ -34,9 +34,9 @@ header > nav a {
     float: right;
     padding: 0;
     margin: 0 2rem 0 0;
-
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
+    font-size: 1.25em;
+    /*letter-spacing: 0.15em;*/
+    /*text-transform: uppercase;*/
     text-decoration: none;
 
     /* Needed to make the links clickable. */
