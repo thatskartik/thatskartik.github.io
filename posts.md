@@ -4,7 +4,7 @@ author: Kartik Srinivas
 ---
 
 
-# Posts
+### Posts
 
 <!-- Nothing here yet, will post something on Convex Optimization soon! -->
 <!-- ## Tufte Blog Examples
