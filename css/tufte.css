@@ -39,6 +39,10 @@
     src: url("../fonts/Sohne/sohne.otf");
 }
 
+@font-face {
+    font-family: "sohne_mono";
+    src: url("../fonts/Sohne-Mono/Sohne_mono.otf")
+}
 
 
 /* Tufte CSS styles */
@@ -256,7 +260,7 @@ div.table-wrapper { overflow-x: auto;
 .sans { font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
         letter-spacing: .03em; }
 
-code { font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+code { font-family: sohne_mono, Consolas, "Liberation Mono", Menlo, Courier, monospace;
        font-size: 1.0rem;
        line-height: 1.42; }
 
@@ -266,7 +270,7 @@ h1 > code, h2 > code, h3 > code { font-size: 0.80em; }
 
 .marginnote > code, .sidenote > code { font-size: 1rem; }
 
-pre.code { font-size: 0.9rem;
+pre.code { font-size: 1.25rem;
            width: 52.5%;
            margin-left: 2.5%;
            overflow-x: auto; }
