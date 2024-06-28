@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="Kartik Srinivas" name="author"/>
+<title>Convex</title>
+<base href="https://thatskartik.github.io/" target="_self"/>
+<link href="css/reset.css" rel="stylesheet"/>
+<link href="css/tufte.css" rel="stylesheet"/>
+<link href="css/latex.css" rel="stylesheet"/>
+<link href="css/header_footer.css" rel="stylesheet"/>
+<link href="css/table.css" rel="stylesheet"/>
+<link href="css/tufte_pandoc_compat.css" rel="stylesheet"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML-full" type="text/javascript"></script>
+</head>
+<body>
+<header>
+<nav>
+<a href="pub.html">Research</a>
+<a href="posts.html">Posts</a>
+<a href="index.html">Home</a>
+</nav>
+</header>
+<article>
+<section class="level3" id="how-to-solve-it---george-polya">
+<h3>How to Solve it - George Polya</h3>
+<hr/>
+<p>This is meant to be an executive summary of the book titled <a href="https://en.wikipedia.org/wiki/How_to_Solve_It">“How to solve it”</a>, written by George Polya<label class="margin-toggle sidenote-number" for="sidenote-1"></label><input class="margin-toggle" id="sidenote-1" type="checkbox"/><span class="sidenote"><img alt="Polya" src="posts/HTSI/images/polya.jpg"/> <br/> George Polya <em>(1887 - 1985)</em></span> a Mathematician and Professor at Stanford University. In this summary, I will try to go through the main “questions” or problem solving techniques Polya mentions during the course of the book.</p>
+<p>Firstly, he encourages us to ask these important questions</p>
+<ul>
+<li>What is the data?</li>
+<li>What is the unknown?</li>
+<li>Have you seen a problem with a similar uknown?</li>
+<li>Does the problem have a condition? Is the condition satsifiable?</li>
+</ul>
+</section>
+<section class="level3" id="auxiliary-problems">
+<h3>Auxiliary Problems</h3>
+<p>A problem with a similar unknown is called an <em>auxiliary problem</em> in the book. Polya discusses techniques to come up with such a problem in the first place. He also states that certain classes of problems can have auxiliary chains that run up to 5 to 6 steps long.</p>
+<p>Technique to notice an auxiliary problem<label class="margin-toggle sidenote-number" for="sidenote-2"></label><input class="margin-toggle" id="sidenote-2" type="checkbox"/><span class="sidenote">Consider solving the equation <span class="math display">\[16x^4 + 4x^2 + 1 = 0\]</span> Can you guess the auxiliary equation in this problem?</span></p>
+<ul>
+<li>Have you seen a problem with a similar unknown?</li>
+<li>Can you make the problem more general<label class="margin-toggle sidenote-number" for="sidenote-3"></label><input class="margin-toggle" id="sidenote-3" type="checkbox"/><span class="sidenote">Sometimes the general form is more accessible, because of the choice of notations used</span>?</li>
+<li>Consider a variation of the problem that does not have certain conditions</li>
+<li>Can you restate the problem?</li>
+<li>Can you find an <em>analagous</em> problem?<label class="margin-toggle sidenote-number" for="sidenote-4"></label><input class="margin-toggle" id="sidenote-4" type="checkbox"/><span class="sidenote">Find the centre of Gravity of a Homogeneous Tetrahedron, given that it is the centroid for a Homogeneous Triangle</span></li>
+</ul>
+<p>The techniques to derive different types of problems are either analogy (<em>isomorphisms</em>), or specializations(<em>unilateral reductions</em>) or decomposing and recombining the states of the problem</p>
+<p>When you make a step in your reasoning, you have to ask certain questions again, and look for points of contact with former knowledge again, i.e. the process is repititive.</p>
+</section>
+<section class="level3" id="decomposing-and-recombining">
+<h3>Decomposing and Recombining</h3>
+<div class="epigraph">
+<blockquote>
+<p>Between the data and the unknown lies a bridge called the “Problem”, we can start building from either side of the bridge </p>
+<footer>George Polya’</footer></blockquote>
+</div>
+<p>Starting from the data, you can try the following tools, firstly try to note the <em>obvious</em> things that you can derive from the data that is available in the problem. Ask yourself, <em>did you use all the data ?</em>. Focus on each aspect of the object of interest spearately, and then recombine all the information that you have.</p>
+<p>This post will be continuously updated until the book is completed.</p>
+</section>
+<section class="level3" id="auxiliary-problems---2">
+<h3>Auxiliary Problems - 2</h3>
+<p>Ask yourself, what data would be required to determine the unknown? <label class="margin-toggle sidenote-number" for="sidenote-5"></label><input class="margin-toggle" id="sidenote-5" type="checkbox"/><span class="sidenote">This is similar to working backwards (the other side of the bridge)</span> A second method is to play the opposite game and change the unknown. What unknown can you really determine from this data? Can you derive something useful from the data available to you? Sometimes in “Problems to find”<label class="margin-toggle sidenote-number" for="sidenote-6"></label><input class="margin-toggle" id="sidenote-6" type="checkbox"/><span class="sidenote">To find a circle, one must find both the center and the radius</span> one can choose to solve only a certain sub-part of the problem. The third part of a problem is the <em>condition</em>. We can drop a certain part of the condition and instead ask, given this weaker condition, how can the unknown <em>vary</em>?<label class="margin-toggle sidenote-number" for="sidenote-7"></label><input class="margin-toggle" id="sidenote-7" type="checkbox"/><span class="sidenote">Useful in constructions where the unknown is a point.</span></p>
+<p>Can you change both the unknown and the data so that they are nearer to each other?</p>
+<p>This post will be continuously updated until the book is completed.</p>
+</section>
+
+</article>
+<footer>
+<hr/>
+<div class="credits">
+<span><a href="http://github.com/adityaramesh/tufte-blog">Tufte-Blog</a> uses
+                    <a href="http://pandoc.org">Pandoc</a> along with
+                    <a href="http://github.com/edwardtufte/tufte-css">Tufte CSS,</a>
+<a href="http://mathjax.org">MathJax,</a> and
+                    <a href="http://disqus.com">Disqus.</a>
+</span></div>
+</footer>
+</body>
+</html>
