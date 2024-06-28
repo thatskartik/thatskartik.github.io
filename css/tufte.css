@@ -44,38 +44,46 @@
     src: url("../fonts/Sohne-Mono/Sohne_mono.otf")
 }
 
+@font-face {
+    font-family: "jbmono";
+    src: url("../fonts/JetBrains_Mono/jb_simple.ttf") format('truetype');
+}
+
 
 /* Tufte CSS styles */
-html { font-size: 14px; }
+html { font-size: 13px; }
 
 body { width: 87.5%;
        margin-left: auto;
        margin-right: auto;
        padding-left: 12.5%;
        /*font: 18px/1.5 Helvetica;*/
-       font-family: sohne, et-book,Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+       font-family: jbmono, sohne, et-book,Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
        background-color: #000;
        color: #FFFFF8;
        max-width: 1400px;
        counter-reset: sidenote-counter; }
 
 h1 { font-weight: 400;
-    font-family: signifier;
+    font-family: jbmono, signifier;
+    color: #87ceeb;
      margin-top: 4rem;
      margin-bottom: 1.5rem;
      font-size: 3.2rem;
      line-height: 1; }
 
 h2 { font-style: normal;
-    font-family: signifier;
+    font-family: jbmono, signifier;
      font-weight: 600;
+     color: #87ceeb;
      margin-top: 2.1rem;
      margin-bottom: 0;
      font-size: 2.2rem;
      line-height: 1; }
 
 h3 { font-style: normal;
-    font-family: signifier;
+    font-family: jbmono,signifier;
+    color: #87ceeb;
      font-weight: 600;
      font-size: 1.7rem;
      margin-top: 2rem;
@@ -204,8 +212,8 @@ a {
 a::after{
     content: '';
     position: absolute;
-    background-color: #FFF;
-    height: 3px;
+    background-color: #87ceeb;
+    height: 2px;
     width: 0;
     left: 0;
     bottom: -2px;
@@ -270,7 +278,8 @@ h1 > code, h2 > code, h3 > code { font-size: 0.80em; }
 
 .marginnote > code, .sidenote > code { font-size: 1rem; }
 
-pre.code { font-size: 1.25rem;
+pre.code { font-family: sohne_mono;
+            font-size: 1.25rem;
            width: 52.5%;
            margin-left: 2.5%;
            overflow-x: auto; }

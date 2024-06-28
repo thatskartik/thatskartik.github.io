@@ -69,3 +69,25 @@ from the data that is available in the problem. Ask yourself, _did you use all t
 object of interest spearately, and then recombine all the information that you have.
 
 This post will be continuously updated until the book is completed.
+
+
+### Auxiliary Problems - 2
+
+Ask yourself, what data would be required to determine the unknown? [^wb]
+A second method is to play the opposite game and change the unknown. What unknown can you really determine from this
+data? Can you derive something useful from the data available to you?
+Sometimes in "Problems to find"[^circ] one can choose to solve only a certain sub-part of the problem.
+The third part of a problem is the _condition_. We can drop a certain part of the condition and instead ask, given this
+weaker condition, how can the unknown _vary_?[^var]
+
+Can you change both the unknown and the data so that they are nearer to each other?
+
+This post will be continuously updated until the book is completed.
+
+[^var]: Useful in constructions where the unknown is a point.
+
+[^circ]: To find a circle, one must find both the center and the radius 
+
+
+[^wb]: This is similar to working backwards (the other side of the bridge)
+
