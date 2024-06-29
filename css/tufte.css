@@ -36,7 +36,7 @@
 
 @font-face{
     font-family: "signifier";
-    src: url("../fonts/Sohne/sohne.otf");
+    src: url("../fonts/Signifier/Signifier.otf");
 }
 
 @font-face {
@@ -46,26 +46,26 @@
 
 @font-face {
     font-family: "jbmono";
-    src: url("../fonts/JetBrains_Mono/jb_simple.ttf") format('truetype');
+    src: url("../fonts/Apercu/Apercu_Regular.otf");
 }
 
 
 /* Tufte CSS styles */
-html { font-size: 13px; }
+html { font-size: 15px; font-weight:300;}
 
 body { width: 87.5%;
        margin-left: auto;
        margin-right: auto;
        padding-left: 12.5%;
        /*font: 18px/1.5 Helvetica;*/
-       font-family: jbmono, sohne, et-book,Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
-       background-color: #000;
+       font-family: "Roboto", "Open Sans", serif, "monospace" , jbmono, sohne,et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+       background-color: #1c1c1d;
        color: #FFFFF8;
        max-width: 1400px;
        counter-reset: sidenote-counter; }
 
 h1 { font-weight: 400;
-    font-family: jbmono, signifier;
+    font-family: "Roboto", jbmono, signifier;
     color: #87ceeb;
      margin-top: 4rem;
      margin-bottom: 1.5rem;
@@ -73,8 +73,8 @@ h1 { font-weight: 400;
      line-height: 1; }
 
 h2 { font-style: normal;
-    font-family: jbmono, signifier;
-     font-weight: 600;
+    font-family: "Roboto", jbmono, signifier;
+     font-weight: 400;
      color: #87ceeb;
      margin-top: 2.1rem;
      margin-bottom: 0;
@@ -82,9 +82,9 @@ h2 { font-style: normal;
      line-height: 1; }
 
 h3 { font-style: normal;
-    font-family: jbmono,signifier;
+    font-family: "Roboto", jbmono,signifier;
     color: #87ceeb;
-     font-weight: 600;
+     font-weight: 400;
      font-size: 1.7rem;
      margin-top: 2rem;
      margin-bottom: 0;
