@@ -86,7 +86,7 @@ if (j greater than i &amp;&amp; s[i] == s[j])
 </pre>
 <p><a href="https://www.geeksforgeeks.org/distinct-permutations-string-set-2/">Resource</a></p></li>
 <li><a href="https://cses.fi/problemset/task/2431">Digits in a Row</a>: Suppose you have a string of a large number of characters 123456789101112…, find the integer at position <span class="math inline">\(k\)</span>. The problem hints at binary search for this <span class="math inline">\(k\)</span>’th element. Given a number we already know the number of digits behind it based on the size of the number(use base 10).</li>
-<li><a href="https://cses.fi/problemset/task/1625">Valid Hamiltonian Paths</a> You are given a substring of a Hamiltonian Path. You are to check the number of total hamiltonian paths that can have this substring. (The substring can also be disjoint). One can just keep trying all combinations and check te visitied array to make sure that all of the boxes have been crossed out, this might take a lot of time though.</li>
+<li><a href="https://cses.fi/problemset/task/1625">Valid Hamiltonian Paths</a> You are given a substring of a Hamiltonian Path. You are to check the number of total hamiltonian paths that can have this substring. (The substring can also be disjoint). To Optimize the backtracking, note that if the path reaches the lower-right corner before it completes all of the squares in the upper right half, then the path is clearly invalid.</li>
 </ul>
 </section>
 

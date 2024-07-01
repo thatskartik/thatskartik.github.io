@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>nc_backtrack</title>
+<base href="https://thatskartik.github.io" target="_self"/>
+<link href="css/reset.css" rel="stylesheet"/>
+<link href="css/tufte.css" rel="stylesheet"/>
+<link href="css/latex.css" rel="stylesheet"/>
+<link href="css/header_footer.css" rel="stylesheet"/>
+<link href="css/table.css" rel="stylesheet"/>
+<link href="css/tufte_pandoc_compat.css" rel="stylesheet"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML-full" type="text/javascript"></script>
+</head>
+<body>
+<header>
+<nav>
+<a href="index.html">About Me</a>
+<a href="pub.html">Research</a>
+<a href="posts.html">Posts</a>
+</nav>
+</header>
+<article>
+<section class="level2" id="backtracking-ideas-in-neetcode-">
+<h2>Backtracking Ideas in Neetcode:-</h2>
+<hr/>
+<ul>
+<li><a href="https://neetcode.io/problems/search-for-word">Word Search</a>. Usually the standard recursion problem provides you obvious sources of making the problem recursive. If one can’t make a problem recursive, it is useful to introduce a <em>specialization</em> of the problem. For example, searching for a word in a grid of characters does not seem recursive naturally, but instead searching for a word <b>starting from index <span class="math inline">\(i\)</span> </b> in the grid <b>starting from a position <span class="math inline">\((r,c)\)</span></b>, seems more doable.<label class="margin-toggle sidenote-number" for="sidenote-1"></label><input class="margin-toggle" id="sidenote-1" type="checkbox"/><span class="sidenote">DFS, is an ineherently recursive algorithm. <em>Remember to mark vertices as seen before calling the recursion, furthermore, each call of dfs will have a separate grid, so it is passed by value!</em>. Sometimes you can mark a position on the grid with a ‘#’ to denote you have seen that one before and then pass the board by value, instead of maintaining a global visited array.</span></li>
+</ul>
+</section>
+
+</article>
+<footer>
+<hr/>
+<div class="credits">
+<span><a href="http://github.com/adityaramesh/tufte-blog">Tufte-Blog</a> uses
+                    <a href="http://pandoc.org">Pandoc</a> along with
+                    <a href="http://github.com/edwardtufte/tufte-css">Tufte CSS,</a>
+<a href="http://mathjax.org">MathJax,</a> and
+                    <a href="http://disqus.com">Disqus.</a>
+</span></div>
+</footer>
+</body>
+</html>

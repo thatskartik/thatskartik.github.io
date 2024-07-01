@@ -19,7 +19,7 @@ body > article {
 header > nav {
     padding: 3rem 3rem 0 0;
     font-size: 1.3rem;
-    font-family: "Roboto", jbmono, signifier;
+    font-family: jbmono, signifier;
 }
 
 @media (max-width: 760px) {
