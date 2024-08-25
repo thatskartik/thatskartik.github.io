@@ -16,15 +16,15 @@ line-height: 1.2
 
 @media (prefers-color-scheme: dark) {
 body {
-color: #c9d1d9;
-background: #0d1117
+color: #fff;
+background: #000
 }
 
 a:link {
-color: #58a6ff
+color: #FFED29
 }
 
 a:visited {
-            color: #8e96f0
+            color:#FFED29 
         }
 }
