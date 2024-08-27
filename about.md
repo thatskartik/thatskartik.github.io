@@ -9,8 +9,7 @@ kartiksr [at] cs.cmu.edu
     <li> <a href = "./blog.html">Blog</a></li>
 </ul>
 
-I am a Master's student at CMU in the Machine Learning Department. Prior, I double majored in Computer Science and
-Engineering Sciences - (Electrical Engineering, Mathematics & Physics) and graduated with Honors in CS, a Minor in
+I am a Master's student at CMU in the Machine Learning Department. Prior, studied  Computer Science and
+Engineering Sciences - (Electrical Engineering, Mathematics & Physics) and graduated with Honors in Computer Science, a Minor in
 Stat-ML and an Institute Silver Medal from <a href = "https://www.iith.ac.in/">IIT Hyderabad</a>.
 
-In a past life, I played college basketball and swam for my school. I was born by the beaches in <a href = "https://en.wikipedia.org/wiki/Varkala">Varkala</a>.
