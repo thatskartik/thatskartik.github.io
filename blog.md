@@ -5,7 +5,7 @@ kartiksr [at] cs.cmu.edu
 
 <ul>
     <li> <a href = "./about.html">About</a></li>
-    <li> <a href = "./publications.html">Publications</a></li>
+    <li> <a href = "./publications.html">My work</a></li>
     <li> <a href = "./blog.html">Blog</a></li>
 </ul>
 
@@ -13,7 +13,7 @@ Nothing here yet, working on it ... :)
 
 
 <ul>
-<li>(Natural Gradents & Mirror Descent)</li>
+<li></li>
 </ul>
 
 
