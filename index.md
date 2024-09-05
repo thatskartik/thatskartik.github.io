@@ -3,15 +3,8 @@ title:
 layout: post 
 ---
 
- <div class="jumbotron" style=" breakpoint-xs: 0;
-    breakpoint-sm: 576px;
-    breakpoint-md: 768px;
-    breakpoint-lg: 992px;
-    breakpoint-xl: 1200px;
-  margin: 7px ; width: 100vw;
-  position: relative;
-  left: calc(-50vw + 50%); padding: 4rem 2rem ;  box-sizing: border-box;  ;background-color: #e9ecef">
-    <div class="container" style="position: relative; left:600px;" >
+ <div class="jumbotron" style=" padding: 4rem 2rem ;  box-sizing: border-box;  ;background-color: #e9ecef">
+    <div class="container" style="" >
       
   <h1><b>Kartik Srinivas</b></h1>
 
@@ -47,7 +40,7 @@ layout: post
 
   <h3>Research Interests</h3>
 <div class = 'square'>
-<img style='margin-right: 15px; border-radius: 6%; float: left; width: 120px; height: 120px' src='assets/images/sample.jpg'>
+<img style=' margin:10 px; margin-right: 15px; border-radius: 6%; float: left; width: 120px; height: 120px' src='assets/images/sample.jpg'>
 </div>
 <p style='text-align: justify'>My research concerns <strong>"Computational Applied Math"</strong> using tools from
 <em class='text-primary'>applied statistics</em> and
