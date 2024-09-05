@@ -1,0 +1,45 @@
+### Site metadata
+
+# Don't make the title longer than this, otherwise it gets covered in mobile view.
+title: Kartik Srinivas 
+description: A personal website and blog  
+
+email:
+twitter_username:
+github_username: kartiksrinivas007 
+rss: RSS
+
+### Build settings
+
+url: https://thatskartik.github.io
+baseurl: /personal-website/
+
+permalink: pretty
+
+theme: minima 
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+exclude:
+  - docs/
+  - vendor/
+  - Gemfile # Gemfile.lock is implied because of how matching works.
+  - LICENSE
+  - Makefile
+  - README.md
+  - sample*.png
+
+liquid:
+  error_mode: strict
+
+strict_front_matter: true
