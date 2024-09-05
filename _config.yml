@@ -12,7 +12,7 @@ rss: RSS
 ### Build settings
 
 url: https://thatskartik.github.io
-baseurl: /personal-website/
+baseurl:  
 
 permalink: pretty
 
