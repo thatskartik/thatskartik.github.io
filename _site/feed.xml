@@ -1,31 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-05T14:40:14-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kartik Srinivas</title><subtitle>A personal website and blog</subtitle><entry><title type="html">First post!</title><link href="http://localhost:4000/2018/12/22/first-post/" rel="alternate" type="text/html" title="First post!" /><published>2018-12-22T00:00:00-05:00</published><updated>2018-12-22T00:00:00-05:00</updated><id>http://localhost:4000/2018/12/22/first-post</id><content type="html" xml:base="http://localhost:4000/2018/12/22/first-post/"><![CDATA[This is my first post after the one created as part of the blog template.]]></content><author><name></name></author><summary type="html"><![CDATA[This is my first post after the one created as part of the blog template.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2018/12/18/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-12-18T11:24:52-05:00</published><updated>2018-12-18T11:24:52-05:00</updated><id>http://localhost:4000/jekyll/update/2018/12/18/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/12/18/welcome-to-jekyll/"><![CDATA[You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-06T09:45:21-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kartik Srinivas</title><subtitle>A personal website and blog</subtitle><entry><title type="html">First post!</title><link href="http://localhost:4000/2018/12/22/first-post/" rel="alternate" type="text/html" title="First post!" /><published>2018-12-22T00:00:00-05:00</published><updated>2018-12-22T00:00:00-05:00</updated><id>http://localhost:4000/2018/12/22/first-post</id><content type="html" xml:base="http://localhost:4000/2018/12/22/first-post/"><![CDATA[<p>This is a long set of performance improvements I am finding within myself 
+every week, and I hope that they will be useful to others also.</p>
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+<p>The first and most important thing is</p>
 
-Jekyll also offers powerful support for code snippets.
+<p>If person \(P\) wants to perform an action \(Q\) at time \(T\) then the region in which he will actually perform it has
+zero measure.</p>
 
-Using backticks.
+<h3 id="the-issue-with-timetables">The issue with Timetables</h3>
 
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
+<p>I find following a time-table extremely unrealsitic.
+I just do not seem to be waking up on time, and therefore the rest of the entire day goes haywire.</p>
 
-Using `highlight`.
+<p>Another common
+example of this is when I try to do something but the exact goal is not clear and therefore, I just end up planning what
+to do next. Often, these plans tend to be <strong>extremely</strong> biased.</p>
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+<p>What sort of system do I implement so that I can atleast do said thing at said time? I have heard this is quite enforced
+at places like Jane Street and other firms. They have a strict 6 to 6 policy.</p>
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+<p>The root cause is that the plans are either</p>
+<ol>
+  <li>Too unrealistic  to be true</li>
+  <li>Inaccurate and do not take into account what is truly important</li>
+  <li>I may be too cluttered to think about what is important and what isnt</li>
+</ol>
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+<p>The system to improve this needs to</p>
+
+<ol>
+  <li>Make realistic goals with appropriate rewards</li>
+  <li>Be extremely accurate</li>
+  <li>Needs to keep my mind free of clutter that might distract me</li>
+  <li>Needs to have a contingency plan in case an emergency happens (flexible but not too rigid)</li>
+</ol>
+
+<p>Points 1, 2 &amp; 4  need some work, they seem doable in every sense.
+The third point is nearly impossible to achieve in today’s world.</p>
+
+<p>To achieve point 3</p>
+<ul>
+  <li>Need to think unimodally, i.e. kick out thoughts that do not relate to the task of the present (this goes back to 1
+and 2)</li>
+  <li>Need to keep distractions away – phones and their messages etc</li>
+</ul>
+
+<p>I must generate a phone checking routine (but I might have to pull it out while going to college, which may be arbitrary), so what then? The solution is to make sure all the other sites and resources are blocked so that you end up focusing on only the important things. There are applications that can help you do that, they were built for a reason.</p>
+
+<p>To put it quite striaght forwardly – you have to be similar to a <strong>machine</strong></p>
+<ul>
+  <li>Think unimodally about what you planned</li>
+  <li>Create a system that prevents you from getting into an unwanted subroutine</li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[This is a long set of performance improvements I am finding within myself every week, and I hope that they will be useful to others also.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2018/12/18/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-12-18T11:24:52-05:00</published><updated>2018-12-18T11:24:52-05:00</updated><id>http://localhost:4000/jekyll/update/2018/12/18/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/12/18/welcome-to-jekyll/"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets.</p>
+
+<p>Using backticks.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span>
+</code></pre></div></div>
+
+<p>Using <code class="language-plaintext highlighter-rouge">highlight</code>.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>

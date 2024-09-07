@@ -40,9 +40,9 @@ layout: post
 
   <h3>Research Interests</h3>
 <div class = 'square'>
-<img style=' margin:10 px; margin-right: 15px; border-radius: 6%; float: left; width: 120px; height: 120px' src='assets/images/sample.jpg'>
+<img style='margin-bottom :10px; margin-right: 15px; border-radius: 6%; float: left; width: 120px; height: 120px' src='assets/images/sample.jpg'>
 </div>
-<p style='text-align: justify'>My research concerns <strong>"Computational Applied Math"</strong> using tools from
+<p style=''>My research concerns <strong>"Computational Applied Math"</strong> using tools from
 <em class='text-primary'>applied statistics</em> and
 <em class='text-primary'>computer science</em>.
 More specifically, I've worked on a variety of problems related to
