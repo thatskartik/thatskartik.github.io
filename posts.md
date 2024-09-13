@@ -2,8 +2,7 @@
 title: Posts
 layout: page
 permalink: /posts/
+usemathjax: true
 ---
 
-I am going to post a series of notes on Measure theory for the non-mathy community.
- 
-
+Nothing here yet, but I plan to post a summary on Probability Theory and some puzzles on Probability soon :) !

@@ -22,7 +22,7 @@ layout: post
 
   <div class='small mb-2'>
     <span class='text-nowrap' title='Email'>
-    📧
+    Contact: 
     kartiksr [at] cs.cmu.edu.</span>
     &emsp;
   </div>
@@ -42,12 +42,7 @@ layout: post
 <div class = 'square'>
 <img style='margin-bottom :10px; margin-right: 15px; border-radius: 6%; float: left; width: 120px; height: 120px' src='assets/images/sample.jpg'>
 </div>
-<p style=''>My research concerns <strong>"Computational Applied Math"</strong> using tools from
-<em class='text-primary'>applied statistics</em> and
-<em class='text-primary'>computer science</em>.
-More specifically, I've worked on a variety of problems related to
-computability theory,
-optimization,
+<p style=''> My research interests lie at the intersection of <em>"Applied Mathematics" and Computer Science</em>. Vaguely, I like to work on theoretical problems with an applied taste. More specifically, I've worked on a variety of problems related to Convex optimization,
 statistics and machine learning.</p>
 </div>
 </div>
