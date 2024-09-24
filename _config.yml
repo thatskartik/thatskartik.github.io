@@ -11,7 +11,7 @@ rss: RSS
 markdown: kramdown
 ### Build settings
 
-url: https://thatskartik.github.io
+url: http://localhost:4000
 baseurl:  
 
 permalink: pretty
